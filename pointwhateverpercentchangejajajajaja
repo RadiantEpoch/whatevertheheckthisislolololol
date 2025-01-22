@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>None of ur business lolololololololololololololololol</title>
+  <style>
+    body {
+      animation: fade-background 8s infinite alternate; /* originally  8s for infinite alternate, 2s for background */
+      transition: background-color 2s ease-in-out, color 2s ease-in-out;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    @keyframes fade-background {
+      0% {
+        background-color: white;
+        color: black;
+      }
+      100% {
+        background-color: black;
+        color: white;
+      }
+    }
+    button {
+      padding: 20px 40px;
+      font-size: 20px;
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    button:hover {
+      background-color: lightgray;
+    }
+    button:disabled {
+      background-color: gray;
+      color: white;
+      cursor: not-allowed;
+    }
+    #message, #counter {
+      margin-top: 20px;
+    }
+    #credits {
+      margin-top: 50px;
+      font-size: 16px;
+    }
+    #credits span {
+      display: block;
+      margin-top: 5px;
+    }
+    .static-success {
+      background-color: green !important;
+      color: white !important;
+      animation: none !important;
+    }
+    .credits-success {
+      color: white !important;
+    }
+  </style>
+</head>
+<body id="mainBody">
+  <button id="chanceButton" onclick="checkChance()">You have a 0.000000001 percent chance of success! ;-)</button>
+  <p id="message"></p>
+  <p><span id="counter">0</span></p>
+  <p id="cps">Clicks per second: 0</p>
+  <p id="stopwatch">00:00:00</p> <div id="credits">
+    <span>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+    <span>σ <-- This is the Greek letter Sigma. Come on, you know why I like this letter. ONLY TRUE SIGMAS ARE CAPABLE OF USING THIS LETTER IN THEIR PROGRAMS!!!! XD</span>
+    <span>.</span>
+    <span>Κ <-- This is not the letter 'K', but the Greek letter Kappa. If you play Geometry Dash then you know why I like this one. ;-)</span>
+    <span>.</span>
+    <span>ȟ̵̵͓̫̲̭͔̄̄̈́͟͞ǒ̵̵͓̫̲̭͔̄̄̈́͟͞w̵̵͓̫̲̭͔̌̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞ǐ̵̵͓̫̲̭͔̄̄̈́͟͞š̵̵͓̫̲̭͔̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞ť̵̵͓̫̲̭͔̄̄̈́͟͞ȟ̵̵͓̫̲̭͔̄̄̈́͟͞ǐ̵̵͓̫̲̭͔̄̄̈́͟͞š̵̵͓̫̲̭͔̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞č̵̵͓̫̲̭͔̄̄̈́͟͞ǒ̵̵͓̫̲̭͔̄̄̈́͟͞ň̵̵͓̫̲̭͔̄̄̈́͟͞š̵̵͓̫̲̭͔̄̄̈́͟͞ǐ̵̵͓̫̲̭͔̄̄̈́͟͞ď̵̵͓̫̲̭͔̄̄̈́͟͞ě̵̵͓̫̲̭͔̄̄̈́͟͞ř̵̵͓̫̲̭͔̄̄̈́͟͞ě̵̵͓̫̲̭͔̄̄̈́͟͞ď̵̵͓̫̲̭͔̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞ǎ̵̵͓̫̲̭͔̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞f̵̵͓̫̲̭͔̌̄̄̈́͟͞ǒ̵̵͓̫̲̭͔̄̄̈́͟͞ň̵̵͓̫̲̭͔̄̄̈́͟͞ť̵̵͓̫̲̭͔̄̄̈́͟͞ ̵̵͓̫̲̭͔̌̄̄̈́͟͞ľ̵̵͓̫̲̭͔̄̄̈́͟͞m̵̵͓̫̲̭͔̌̄̄̈́͟͞ǎ̵̵͓̫̲̭͔̄̄̈́͟͞ǒ̵̵͓̫̲̭͔̄̄̈́͟͞ </span>
+    <span>.</span>
+    <span>------Credits:------</span>
+    <span>.</span>
+    <span><strong> Built by:</strong> 
+      <span>Radiant Epoch.</span>
+    <span><strong> With help from:</strong> 
+      <span>ChatGPT.</span>
+    <span><strong> Special thanks to:</strong> 
+      <span>Joe, for getting me interested in coding/programming.</span>
+      <span>TICOMB (the inner core of my brain), for teaching me how to be smarter than my school district. X-)</span>
+    <span>The Geometry Dash Community, for keeping me (almost completely) sane during 2024, and hopefully through 2025.</span>
+      <span>All my subscribers on my YouTube, for helping me grow as a channel.</span>
+      <span>The anime universe, for making my mind go ballistic and filling it with things I'll never forget (in a good way trustmetrustmetrustme). 8-|</span>
+      <span><strong> Social(s):</strong>
+      <span>YouTube: https://www.youtube.com/channel/UCHbTuL6vS8Pxrow_NbU9HHQ/</span>
+        <span><strong> Other nonsense stuff:</strong>
+        <span>Hmmmmmmm..........uhhhhhhhhhhhhh..........I like cheese. ¯\_( ͡° ͜ʖ ͡°)_/¯ ( ͠° ͟ʖ ͡°) [̲̅$̲̅(̲̅ιοο̲̅)̲̅$̲̅] (⌐■_■)--︻╦╤─ - - -</span>
+  </div>
+
+          <script>
+            let clickCount = 0; // Initialize counter variable
+            let cps = 0; // Initialize CPS variable
+            let lastClickTime = 0; // Initialize last click time
+            let startTime = 0; // Initialize stopwatch start time
+            let intervalId; // Variable to store the interval ID
+            let hasSucceeded = false; // Flag to check if the player has succeeded
+
+            // Ensure the button is enabled when the page loads
+            document.getElementById("chanceButton").disabled = false;
+
+            function checkChance() {
+              if (hasSucceeded) return; // If the player has succeeded, do nothing
+
+              clickCount++; // Increment the counter
+              document.getElementById("counter").innerHTML = clickCount; // Update the counter display
+
+              // Update CPS calculation
+              let now = new Date().getTime();
+              cps = 1000 / (now - lastClickTime);
+              lastClickTime = now;
+              document.getElementById("cps").innerHTML = "Clicks per second (inaccurate, sorry bout dat.): " + cps.toFixed(2);
+
+              let random = Math.floor(Math.random() * 999,999,999); // Adjust random range as needed
+              if (random === 1) {
+                document.getElementById("message").innerHTML =
+                  "You've done it. You finally found it. Idk how long this took you, but all your hard work has just payed off. Congratulations, you can finally stop wasting your time here. Go outside and get some fresh air. You deserve it. Go be the luckiest person alive. :-D";
+                document.getElementById("chanceButton").disabled = true; // Disable the button
+
+                // Stop background fading and change to static green with white text
+                document.getElementById("mainBody").classList.add("static-success");
+
+                // Apply static-success styling to the credits section
+                document.getElementById("credits").classList.add("credits-success");
+
+                // Clear the interval to pause the stopwatch
+                clearInterval(intervalId);
+                intervalId = null; // Reset the intervalId
+                hasSucceeded = true; // Mark success state
+              } else {
+                let failureMessages = [
+                  "LOLLOLLOL nope XD!",
+                  "Sorry, but you failed. Better luck next time! ;)",
+                  "Jajajajaja. Prepare for this to happen 2,147,483,647 times! *evil laughter* XDXDXD",
+                  "Are you even trying? /:-(",
+                  "Noooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooob!!!!!",
+                  "Your crappy clicks are ASMR to me. (>‿<)",
+                  "*yawn* BORING!",
+                  /*"Number fifteeeeeeen: Burger King Foot Lettuce. The last thing you want in your Burger King Burger is someone's foot fungus. But as it turns out, that might be what you get. (The auto correct in Replit actually made this lmao; I typed in 'Burger King Foot', and it made all the way to '...what you get'.) God this thing is smart. Should we all be concerned? 8-|",*/
+                  "Give up?",
+                  "Give up.",
+                  "*Stop Trying avievement from GD*",
+                  "You're not even trying. You're just wasting your time here. Go outside and get some fresh air",
+                  "Why are we here, just to suffer?",
+                  "Not very sigma. ( ͡° ͜ʖ ͡°) ΣΣΣΣΣΣΣΣΣΣΣΣΣ (ok sorry I won't say that again. X-(     ))",
+                  "A.",
+                  "Goat.",
+                  "(-_-)zzz",
+                  "E?",
+                  "867-5309",
+                  "Toast (you're toast.)",
+                  "800-588-2300 Empiiiiiiiiiiiiire *'today' in a deep voice* ",
+                  "*BNtSG intro*",
+                  "Still clicking? Adorable. Keep going! ;)",
+                  "You're doing great... at failing.",
+                  "This isn't your lucky day. Or week. Or year.",
+                  "Have you considered a new hobby? Clicking clearly isn't working out.",
+                  "I could do this all day. Can you?",
+                  "You miss 100% of the shots you don't take. And 99.9999999% of the ones you do.",
+                  "Click harder! Maybe that'll work. Or not.",
+                  "Are you winning, son?",
+                  "I bet a potato could click better than this.",
+                  "Keep trying; I'm sure the random number generator is on your side. Eventually. Maybe.",
+                  "You know, some people actually succeeded. You're not one of them.",
+                  "Don't worry; success is overrated anyway.",
+                  "This game wasn't meant for mortals, but hey, give it your best shot.",
+                  "Oh look, another failure. So predictable.",
+                  "Clicking faster/slower won't change the odds, but it's fun to watch you try!",
+
+                ];
+                let randomIndex = Math.floor(Math.random() * failureMessages.length);
+                document.getElementById("message").innerHTML = failureMessages[randomIndex];
+              }
+
+              // Start the stopwatch if it's not already running and the player hasn't succeeded
+              if (!intervalId && !hasSucceeded) {
+                startTime = new Date().getTime();
+                updateStopwatch();
+                intervalId = setInterval(updateStopwatch, 1000);
+              }
+            }
+
+            function updateStopwatch() {
+              let elapsedTime = new Date().getTime() - startTime;
+              let seconds = Math.floor(elapsedTime / 1000);
+              let minutes = Math.floor(seconds / 60);
+              let hours = Math.floor(minutes / 60);
+              seconds %= 60;
+              minutes %= 60;
+              document.getElementById("stopwatch").innerHTML =
+              pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
+            }
+
+            // Helper function to pad numbers with leading zeros
+            function pad(number) {
+              return ("0" + number).slice(-2);
+            }
+
+            // Update CPS every second
+            setInterval(function () {
+              document.getElementById("cps").innerHTML =
+                "Clicks per second (inaccurate, sorry bout dat.): " + cps.toFixed(2);
+              cps = 0; // Reset cps for next second
+            }, 1000);
+          </script>
+
+</body>
+</html>
